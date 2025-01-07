@@ -26,7 +26,7 @@ let oddPercentage = 0;
 function checkProbabilityTheory(count) {
 
     if (isNaN(count) || !Number.isInteger(count) || count <= 0){
-        console.log('Count should be a number');
+        console.log('The count must be a positive integer');
         return;
     }
 
