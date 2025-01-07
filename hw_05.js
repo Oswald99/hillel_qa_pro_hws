@@ -46,7 +46,10 @@ function checkProbabilityTheory(count) {
          oddPercentage = (quantityOfOddNumbers / quantityOfGeneratedNumbers * 100).toFixed(2);
     }
     
-    console.log(`Кількість згенерованих чисел: ${quantityOfGeneratedNumbers}\nПарних чисел: ${quantityOfOddNumbers}\nНе парних чисел: ${quantityOfEvenNumbers}\nВідсоток парних до не парних: ${evenPercentage}% / ${oddPercentage}%`);
+    console.log(`Кількість згенерованих чисел: ${quantityOfGeneratedNumbers}`);
+    console.log(`Парних чисел: ${quantityOfOddNumbers}`);
+    console.log(`Не парних чисел: ${quantityOfEvenNumbers}`);
+    console.log(`Відсоток парних до не парних: ${evenPercentage}% / ${oddPercentage}%`);
 }
 
 checkProbabilityTheory(4);
